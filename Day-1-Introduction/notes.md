@@ -42,9 +42,9 @@ example workflow:
 - Classical computer use gate AND,OR,NOT while Quantum computer using  gate H,X,CNOT.
 
 ## 8.Tool to Practice Quantum computing
-Python :Programming language
-Jupiter notebook write and run code intractively.
-Qiskit: Python library for simulating quantum circuit.
+- Python :Programming language  
+- Jupiter notebook write and run code intractively.  
+- Qiskit: Python library for simulating quantum circuit.  
 
 ## 9.Summery:
 Todays you learned:
