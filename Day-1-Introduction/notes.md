@@ -5,9 +5,9 @@
  Unlike classical computers that use bits(0 or 1) ,quantum computers uses  qubits which cam exist in multiple state at once.
 
  ## 2.What is a Qubit?
- A qubit is the basic unit of quantum information.Unlike a classical bit:
- a.classical bit can be either 0 or 1.
- b.a qubit can be superposition of 0 and 1 at the same time.
+ A qubit is the basic unit of quantum information.Unlike a classical bit:  
+ 1. classical bit can be either 0 or 1.
+ 2. a qubit can be superposition of 0 and 1 at the same time.
  Mathematically ,a qubit is represented as:
  ∣Ψ⟩=α∣0⟩+β∣1⟩
  Where:
@@ -30,16 +30,16 @@
 ## 6.What is Quantum circuit?
 A quantum circuit is a sequence of quantum gates applied to qubits.we can simulate these circuit using Python libraries such as qiskit.
 example workflow:
-1.create quantum circuit with qubit and classical bit.
-2.apply hadamard gate to put qubit in superposition.
-3.Measure the qubit.
-4.Visualize or draw the circuit.
+1. create quantum circuit with qubit and classical bit.  
+2. apply hadamard gate to put qubit in superposition.  
+3. Measure the qubit.  
+4. Visualize or draw the circuit.  
 
 ## 7.Key difference between classical Vs Quantum
-I.in classical computing basic unit include Bit(0 or 1) while in Qunatum computer basic unit is Qubit(Superposition).
-II.classical computer is deterministic while quantum computer are probabilistic.
-III. Classical computer having parellelism limited while quantum computer having parellelism high.
-IV. Classical computer use gate AND,OR,NOT while Quantum computer using  gate H,X,CNOT.
+- in classical computing basic unit include Bit(0 or 1) while in Qunatum computer basic unit is Qubit(Superposition).
+- classical computer is deterministic while quantum computer are probabilistic.
+- Classical computer having parellelism limited while quantum computer having parellelism high.
+- Classical computer use gate AND,OR,NOT while Quantum computer using  gate H,X,CNOT.
 
 ## 8.Tool to Practice Quantum computing
 Python :Programming language
@@ -48,8 +48,8 @@ Qiskit: Python library for simulating quantum circuit.
 
 ## 9.Summery:
 Todays you learned:
-1.what a qubit is and the concept of superposition
-2.Measurement of qubits
-3.Basic of quantum gates and quantum circuit
-4.Tools needed :Python ,Jupiter,Qiskit
+1. what a qubit is and the concept of superposition
+2. Measurement of qubits
+3. Basic of quantum gates and quantum circuit
+4. Tools needed :Python ,Jupiter,Qiskit
 5.How to create your first quantum circuit with hadamard gate and measurement.
