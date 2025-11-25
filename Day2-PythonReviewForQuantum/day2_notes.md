@@ -9,9 +9,9 @@ Quantum computing is bulit on **Linear Algebra**
 
 ---
  ## 2. Python Essential review
- -variables
- -loops
- -functions
+ - variables
+ - loops
+ - functions
  - NumPy array for numerical computing
 NumPy give efficient matrix math , which is required for simulating quantum system.
 
