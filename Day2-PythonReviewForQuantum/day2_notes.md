@@ -1,4 +1,4 @@
-# Day2 - Python Review, Vectors and Matrices
+# Day2 Notes - Python Review, Vectors and Matrices
 
 ## 1. Why vectors and matrices are matter in Quantum computing
 Quantum computing is bulit on **Linear Algebra**
