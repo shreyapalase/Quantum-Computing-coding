@@ -2,7 +2,7 @@
 This folder contain Material to practice python for quantum computing coding
 
 ### files Includes:
-** day2_PythonBasics.ipynb ** -Jupyter Notebook with:
+**day2_PythonBasics.ipynb** -Jupyter Notebook with:
 - Python refresher
 - Vector operations(2D + 3D)
 - 2x2 matrix operations(quantum- gate style)
