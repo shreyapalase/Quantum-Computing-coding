@@ -7,7 +7,7 @@ This folder contain Material to practice python for quantum computing coding
 - Vector operations(2D + 3D)
 - 2x2 matrix operations(quantum- gate style)
 - 3x3 matrix mutiplication and determinant
-- Matrix Vector Mutiplication
+- Matrix Vector Mutiplication  
 **day2_notes.md** -Coceptual notes for day
 **README.md** -overview and Instructions
 
