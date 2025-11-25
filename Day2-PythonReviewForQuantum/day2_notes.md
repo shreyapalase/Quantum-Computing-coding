@@ -31,12 +31,10 @@ Operations:
   it tell a qubit how to change. 
   example:
   Pauli-x matrix
-  $$
-  X= \begin{bmatrix}
-  0 & 1 \\
-  1 & 0
-  \end{bmatrix}
- $$
+  | 0 | 1 |
+  |---|---|
+  | 1 | 0 |
+  
 
   You practiced:
   - Addition - adding two matrices by summing their corresponding elements.
@@ -46,14 +44,13 @@ Operations:
 
 ---
 ## 5.Matrix- Vector Multiplication
-$$
-|\psi'> = U|\psi>
-$$
+
+|Ψ> = U|Ψ>
 where:
 - U is gate matrix
 - |Ψ>  is a state vector
 
   Now you ready to deep dive into implementing linear algebra for quantum computing on next level.
   happy learning!
-  ### Author : Shreya palase
+  ### Author : Shreya Palase
   ### Date : 25-nov-2025
