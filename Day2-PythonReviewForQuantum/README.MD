@@ -8,8 +8,8 @@ This folder contain Material to practice python for quantum computing coding
 - 2x2 matrix operations(quantum- gate style)
 - 3x3 matrix mutiplication and determinant
 - Matrix Vector Mutiplication
-** day2_notes.md ** Coceptual notes for day
-** README.md ** overview and Instructions
+**day2_notes.md** -Coceptual notes for day
+**README.md** -overview and Instructions
 
 ### Learning objective
 refresh with python basic ,understand ,perform and apply key concept require for quantum coding.
