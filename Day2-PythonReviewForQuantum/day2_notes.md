@@ -2,7 +2,7 @@
 
 ## 1. Why vectors and matrices are matter in Quantum computing
 Quantum computing is bulit on **Linear Algebra**
-- a quantum state |> is a **vector**.
+- a quantum state |Ψ> is a **vector**.
 - a quantum gate (X,H,Z etc.) is a **2x2 matrix**
 - State Evolution is computed using **matrix x vector**
   Understanding this fundamental for before moving toward for quantum computing
@@ -51,7 +51,7 @@ Operations:
 \]
 where:
 - U is gate matrix
-- |psi>  is a state vector
+- |Ψ>  is a state vector
 
   Now you ready to deep dive into implementing linear algebra for quantum computing on next level.
   happy learning!
