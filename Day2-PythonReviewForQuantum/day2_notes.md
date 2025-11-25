@@ -17,10 +17,10 @@ NumPy give efficient matrix math , which is required for simulating quantum syst
 
 ---
 ## 3. Vectors
-Vector in qiantum computing is a complex valued column vector that describe the state of qubit or a system of qubit. it contains amplitude for each possible quantum state.
+Vector in quantum computing is a complex valued column vector that describe the state of qubit or a system of qubit. it contains amplitude for each possible quantum state.
 Examples:
 - 2D vectors - represent qubit in computational basic.
-- 3D vector - genearal linear algebra practice.
+- 3D vector - genearal linear algebra practice.  
 Operations:
 - Addition - additing two vector
 - Dot product -two vector sum of the product of their corrosponding component.
@@ -31,12 +31,12 @@ Operations:
   it tell a qubit how to change. 
   example:
   Pauli-x matrix
-  \[
-  \begin{bmatrix}
+  $$
+  X= \begin{bmatrix}
   0 & 1 \\
   1 & 0
   \end{bmatrix}
-  \]
+ $$
 
   You practiced:
   - Addition - adding two matrices by summing their corresponding elements.
@@ -46,9 +46,9 @@ Operations:
 
 ---
 ## 5.Matrix- Vector Multiplication
-\[
+$$
 |\psi'> = U|\psi>
-\]
+$$
 where:
 - U is gate matrix
 - |Ψ>  is a state vector
