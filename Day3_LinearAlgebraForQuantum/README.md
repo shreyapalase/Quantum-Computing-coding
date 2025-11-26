@@ -3,7 +3,7 @@
 This Folder contains material to practice and understand linear algebra for quantum computing.
 
 ## contents -
-1. **day3_linearAlgebraForQuantum.ipynb**
+1. **day3_linearAlgebraQuantum.ipynb**
    
    this is hands-on jupyter notebook which covers following topics:
    - Qubits as vectors
@@ -28,6 +28,7 @@ This Folder contains material to practice and understand linear algebra for quan
 **Run the notebook using Jupyter or VS code.**
 
 **Author** -Shreya Palase
+**Date** -26-Nov-2025
 
 **Date** - 26-Nov-2025
 
