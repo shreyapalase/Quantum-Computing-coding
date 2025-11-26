@@ -53,6 +53,6 @@ where:
   Now you ready to deep dive into implementing linear algebra for quantum computing on next level.
   happy learning!
   
-  ** Written By** : Shreya Palase
+  **Written By** : Shreya Palase
   
    **Date** : 25-nov-2025
