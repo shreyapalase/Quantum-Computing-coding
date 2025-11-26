@@ -53,3 +53,9 @@ Todays you learned:
 3. Basic of quantum gates and quantum circuit
 4. Tools needed :Python ,Jupiter,Qiskit
 5.How to create your first quantum circuit with hadamard gate and measurement.
+
+---
+
+**Written By** : Shreya Palase
+
+**Date** : 24-Nov-2025
