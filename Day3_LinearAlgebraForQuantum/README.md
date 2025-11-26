@@ -28,7 +28,6 @@ This Folder contains material to practice and understand linear algebra for quan
 **Run the notebook using Jupyter or VS code.**
 
 **Author** -Shreya Palase
-**Date** -26-Nov-2025
 
 **Date** - 26-Nov-2025
 
