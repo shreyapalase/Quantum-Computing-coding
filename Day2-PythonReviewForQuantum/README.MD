@@ -23,6 +23,10 @@ refresh with python basic ,understand ,perform and apply key concept require for
 ### Dependencies
 Install NumPy
 
+**Author** - Shreya Palase
+
+**Date** -25-Nov-2025
+
 Thank you and follow guide.
 
 
