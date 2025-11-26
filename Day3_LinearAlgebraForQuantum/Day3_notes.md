@@ -59,7 +59,7 @@ Tensor size doubles with each qubit - 2<sup>n</sup> dimensional.
 
 ## 7. Quantum Gate as Matrices
 Quantum gates must be matrices, this matrices are specially called "Unitary matrices" .unitary matrix is the square matrix whose complex conjugate transpose is also its inverse.
-mathematically, U<sup>+</sup>U = UU<sup>+<\sup> = I(Identity matrix).
+mathematically, U<sup>+</sup>U = UU<sup>+</sup> = I(Identity matrix).
 this means U and U<sup> + </sup>bring back you in original state,it help to prevent norm.
 we apply Uniatry operation on state |Ψ> represented as: |Ψ<sup> , </sup>> = U|Ψ>.
 
