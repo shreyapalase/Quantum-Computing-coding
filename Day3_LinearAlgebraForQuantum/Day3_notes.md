@@ -45,6 +45,7 @@ Quantum Superposition refer Qubits can be exist in multiple state at the same ti
 Example:
 
 |+> = (|0> + |1>)/<sqrt>2</sqrt>
+
 |-> = (|0> - |1>)/<sqrt>2</sqrt>
 
 ---
