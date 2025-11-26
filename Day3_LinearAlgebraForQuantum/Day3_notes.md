@@ -10,15 +10,14 @@ A Qubit is a 2-diamensional complex vector.Qubit is the basic unit of quantum in
 |0> =[1,0]T
 |1> =[0,1]T
 A General qubits:
-A qubit's state, represented as \(|\psi \rangle =\alpha |0\rangle +\beta |1\rangle \), is a superposition of the basis states \(|0\rangle \) and \(|1\rangle \), 
-where \(\alpha \) and \(\beta \) are complex probability amplitudes. The probabilities of measuring the qubit as \(|0\rangle \) or \(|1\rangle \) are given by \(|\alpha |^{2}\) and
-\(|\beta |^{2}\), respectively, and these must sum to 1 (\(|\alpha |^{2}+|\beta |^{2}=1\)
+|Ψ> =α|0> + β|1>
+|α><sup>2</sup> + |β><sup>2</sup> = 1
 
 ---
 
 ## 2. Bras and Kets(Dirac Notation)
-- Ket - represent Column vector --> |Ψ>
-- Bra - represent Row Vector i.e complex conjugate of column vector --> <Ψ|
+- **Ket** - represent Column vector --> |Ψ>
+- **Bra** - represent Row Vector i.e complex conjugate of column vector --> <Ψ|
 
 ---
   
@@ -35,6 +34,7 @@ for two quantum state |Ψ> and |Φ> inner product = <Ψ|Φ>. this means probabil
 Normalization ensure total probability into 1.all quantum state are normalized.
 it represent valied quantum state.
 normalization represent inner product of two same state must be 1.
+
 || |Ψ> || = 1 or <Ψ|Ψ> = 1.
 
 ---
@@ -42,8 +42,9 @@ normalization represent inner product of two same state must be 1.
 ## 5.Superposition
 Quantum Superposition refer Qubits can be exist in multiple state at the same time until its measurement.i.e Qubit in state **|0> and |1>** simulteneously.
 Example:
-|+> = (|0> + |1>)/<sqrt>2<\sqrt>
-|-> = (|0> - |1>)/<sqrt>2<\sqrt>
+
+|+> = (|0> + |1>)/<sqrt>2</sqrt>
+|-> = (|0> - |1>)/<sqrt>2</sqrt>
 
 ---
 
@@ -65,6 +66,7 @@ we apply Uniatry operation on state |Ψ> represented as: |Ψ<sup>,</sup>> = U|Ψ
 ## 8.Eigenvalues and Eigenvectors  
 Eigenvalues and Eigenvectors are useful for quantum phase estimation.eigenvalue are +1 or -1 and eigenvectors are |0> or |1>.
 If , U|v> = λ|V>
+where,
 |v> is Eigenvector and λ is the scaler EigenValue.
 
 ---
