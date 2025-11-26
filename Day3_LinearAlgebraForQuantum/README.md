@@ -3,7 +3,7 @@
 This Folder contains material to practice and understand linear algebra for quantum computing.
 
 ## contents -
-1. ** day3_linearAlgebraForQuantum.ipynb **
+1. **day3_linearAlgebraForQuantum.ipynb**
    
    this is hands-on jupyter notebook which covers following topics:
    - Qubits as vectors
@@ -13,7 +13,7 @@ This Folder contains material to practice and understand linear algebra for quan
    - Unitary Matrices
    - Quantum gate in matrix form
 
-3. ** day3_notes.md **
+3. **day3_notes.md**
    
    Detailed study notes for linear algebra in Quantum computing.
 
@@ -25,7 +25,7 @@ This Folder contains material to practice and understand linear algebra for quan
 - verify unitary quantum gate
 - Apply linear algebra operation programmatically in python/NumPy
 
-**Run the notebook using Jupyter or VS code.
+**Run the notebook using Jupyter or VS code.**
 
 **Author** -Shreya Palase
 
