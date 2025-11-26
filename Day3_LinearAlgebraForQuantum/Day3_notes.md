@@ -58,14 +58,15 @@ Tensor size doubles with each qubit - 2<sup>n</sup> dimensional.
 ## 7. Quantum Gate as Matrices
 Quantum gates must be matrices, this matrices are specially called "Unitary matrices" .unitary matrix is the square matrix whose complex conjugate transpose is also its inverse.
 mathematically, U<sup>+</sup>U = UU<sup>+<\sup> = I(Identity matrix).
-this means U and U<sup>+</sup> bring back you in original state,it help to prevent norm.
-we apply Uniatry operation on state |Ψ> represented as: |Ψ<sup>,</sup>> = U|Ψ>.
+this means U and U<sup> + </sup> bring back you in original state,it help to prevent norm.
+we apply Uniatry operation on state |Ψ> represented as: |Ψ<sup> , </sup>> = U|Ψ>.
 
 ---
 
 ## 8.Eigenvalues and Eigenvectors  
 Eigenvalues and Eigenvectors are useful for quantum phase estimation.eigenvalue are +1 or -1 and eigenvectors are |0> or |1>.
 If , U|v> = λ|V>
+
 where,
 |v> is Eigenvector and λ is the scaler EigenValue.
 
