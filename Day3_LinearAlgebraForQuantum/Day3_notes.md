@@ -11,6 +11,7 @@ A Qubit is a 2-diamensional complex vector.Qubit is the basic unit of quantum in
 |1> =[0,1]T
 A General qubits:
 |Ψ> =α|0> + β|1>
+
 |α><sup>2</sup> + |β><sup>2</sup> = 1
 
 ---
