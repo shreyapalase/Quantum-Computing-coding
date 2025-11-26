@@ -91,7 +91,7 @@ where,
 
 **written By** : Shreya Palase
 
-**Date** - 26-Nov-2025**
+**Date** - 26-Nov-2025
 
 Keep study,keep practice!
 Thank you.
