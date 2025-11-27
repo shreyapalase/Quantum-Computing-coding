@@ -3,7 +3,7 @@ Today we bulid strong intuition  for how **Qubits behave Geometrically**.
 
 ---
 
-## what We Learn Today:
+## What We Learn Today:
 - Mathematical representation of **a Qubit**
 - Geometric bloch sphere representation
 - visualizing |0> and |1> as bloch vector
@@ -17,7 +17,7 @@ Today we bulid strong intuition  for how **Qubits behave Geometrically**.
 
 ## 1.What is a Qubit?
 A  Qubit is 2-level quantum state represent as:
-\(|\psi \rangle =\cos \left(\frac{\theta }{2}\right)|0\rangle +e^{i\phi }\sin \left(\frac{\theta }{2}\right)|1\rangle \)
+$$|\psi \rangle =\cos \left(\frac{\theta }{2}\right)|0\rangle +e^{i\phi }\sin \left(\frac{\theta }{2}\right)|1\rangle$$
 Unlike classical bits ,qubits can be in **Superposition**.  
 Example:  
 - |0> = North pole of bloch Sphere
@@ -27,9 +27,8 @@ Example:
 
   ## 2.Bloch Spere Representation
   Any Qubit can be mapped onto a point on the Bloch Sphere via angles:
-  \[
-  |\psi\rangle = \cos\left\(\frac{\theta}{2}\right)|0\rangle + e^{i/phi}\sin\left(\frac{\theta}{2}\right)|1\rangle
-  \]
+  
+  $$|\psi\rangle = \cos\left(\frac{\theta}{2}\right)|0\rangle + e^{i\phi}\sin\left(\frac{\theta}{2}\right)|1\rangle$$
 
   - **θ** - lattitude(superposition amplitude)
   - **φ** - longitude(Phase)  
@@ -64,9 +63,9 @@ You visualize using  **plot_bloch_mulitivector(state)** in Python.
 
 ## 5.Creating custom Qubits(θ,φ)
 You can create custom qubits by choosing θ and φ:
-\[
-\alpha = \cos\(\theta/2), \quad \beta = e^{i/phi}\sin(\theta/2)
-\]
+
+$$\alpha = \cos(\theta/2), \quad \beta = e^{i\phi}\sin(\theta/2)$$
+
 Example:
 **θ** = π/3 and **φ** = π/4  
 **Normalization Check** : |α|<sup>2</sup> + |β|<sup>2</sup> = 1  
@@ -88,18 +87,20 @@ rotation gates allow arbitrary rotation:
 
 ## 7.Phase Gate Example
 The **phase gate P(φ)**:
-\[
-P(\phi) = \begin{bmatrix} 1 & 0 \\ 0 & e^{i/phi} \end{bmatrix}
-\]
+
+$$P(\phi) = \begin{bmatrix} 1 & 0 \\ 0 & e^{i\phi} \end{bmatrix}$$
+
 - Only the **|1> component** changes phase
 - appear as a rotation around the Z-axis
 - useful for constructing relative phase difference in algorithm.
 
 ---
-refer above notes side by side to executing 'day4_BlochSphere.ipynb' file for deep understanding.
+
+**refer above notes side by side while or before  executing 'day4_BlochSphere.ipynb' file for deep understanding.
+
 ---
 
-**written By** :Shreya Palase
+**Written By** :Shreya Palase
 
 **Date** : 27-Nov-2025
 
