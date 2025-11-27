@@ -96,7 +96,7 @@ $$P(\phi) = \begin{bmatrix} 1 & 0 \\ 0 & e^{i\phi} \end{bmatrix}$$
 
 ---
 
-**refer above notes side by side while or before  executing 'day4_BlochSphere.ipynb' file for deep understanding.
+**refer above notes side by side while or before  executing 'day4_BlochSphere.ipynb' file for deep understanding.**
 
 ---
 
