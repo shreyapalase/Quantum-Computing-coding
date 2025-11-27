@@ -1,2 +1,2 @@
 # Quantum-Computing-coding
-A Practice repository for my quantum computing journey.
+A Practice repository to learn  quantum computing coding.
