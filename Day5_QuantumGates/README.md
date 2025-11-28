@@ -3,6 +3,15 @@ This Folder contain material for practice and understanding Basic Quantum gates 
 
 ---
 
+ ### Learning Objective
+ - Learn Effect of Quantum gates: **X,Y,Z,H**
+ - Understand Qubit State Transformation mathematically.
+ - Simulate Gate Measurement using **Qiskit AerSimulator**
+ - Visualize the result using Histogram
+ - practice and Creating Custom Qunatum gate.
+
+---
+
 ## Contents:
 1. **day5_QuantumGates.ipynb** 
 
