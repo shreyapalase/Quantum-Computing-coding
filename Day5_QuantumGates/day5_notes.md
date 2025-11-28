@@ -220,8 +220,7 @@ R_y(\pi/3) = \begin{pmatrix}
 \cos\left(\frac{\pi}{6}\right) & -\sin\left(\frac{\pi}{6}\right) \\
 \sin\left(\frac{\pi}{6}\right) & \cos\left(\frac{\pi}{6}\right)
 \end{pmatrix}
-=
-\begin{pmatrix}
+=\begin{pmatrix}
 \frac{\sqrt{3}}{2} & -\frac{1}{2} \\
 \frac{1}{2} & \frac{\sqrt{3}}{2}
 \end{pmatrix}
