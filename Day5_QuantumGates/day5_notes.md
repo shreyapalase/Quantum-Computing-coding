@@ -1,14 +1,9 @@
 # Day5 Notes - Understanding and Simulating Qunatum Gates
  This file give detailed description of what is Quantum gate,How its work and how to Simualte using AerSimulator()
 
- ---
-
- ### Learning Objective
- - Learn Effect of Quantum gates: **X,Y,Z,H**
- - Understand Qubit State Transformation mathematically.
- - Simulate Gate Measurement using **Qiskit AerSimulator**
- - Visualize the result using Histogram
- - practice and Creating Custom Qunatum gate.
+---
+# What is Quantum Gate?
+A Quantum Gate is a basic opeartion that changes the state of qubits .it it represented using unitary matrix and can manipulate qubits to create superposition ,entanglement or flips .All Quantum gate are reversible.there are many quantum gate .but basically X gate,Y gate,Z gate and H-gate etc. so let see them one by one.
 
 ---
 
