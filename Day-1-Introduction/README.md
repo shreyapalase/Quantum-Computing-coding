@@ -1,13 +1,31 @@
-this folder contain following files-
-**day1_intro.ipynb**  
+# Introdcution to Quantum Computing
 
--introduction of Quantumm computing
+This folder contains modules focuses on basic introduction of what is qunatum computing comare with classical one.
 
--my first quantum computing circuit in qiskit
-**notes.md** 
+---
 
-This file contain thory practice notes for Qunatum computing
+## Learning Objective:
+By the end of module ,you will be able to:
 
-**Author** : Shreya Palase
+This notebook demonstrates a simple quantum program using Qiskit:
+1. create a quantum circuit with 1 qubit.  
+2. Apply Hadamard gate to create superposition.  
+3. measure the qubit.  
+4. Run the circuit on a simulator and visualize the result.
+  
 
-**Date** :24- Nov -2025
+---
+
+## contents:
+1. **day1_intro.ipynb**
+   Intractive and hands-on practice jupyter notebook to understand working of Quantum computer using Qiskit.
+2. **notes.md**
+   detailed conceptual notes of each point and step by step explanation.
+
+---
+
+ **Author** :Shreya Palase
+ 
+ **Date** : 24-Nov-2025
+
+ Thank you and Keep learning!
