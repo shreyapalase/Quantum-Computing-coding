@@ -88,7 +88,12 @@ They form an orthonormal basis for a two-qubit system. These states are also oft
 
 The four standard Bell states are represented using the Dirac notation ($\vert \cdot \rangle$) and the tensor product ($\otimes$, often implied):
 
-NameState EquationDescriptionPhi Plus\(|\Phi ^{+}\rangle =\frac{1}{\sqrt{2}}(|00\rangle +|11\rangle )\)Both qubits are the same (either both 0 or both 1).Phi Minus\(|\Phi ^{-}\rangle =\frac{1}{\sqrt{2}}(|00\rangle -|11\rangle )\)Both qubits are the same, with a relative phase shift.Psi Plus\(|\Psi ^{+}\rangle =\frac{1}{\sqrt{2}}(|01\rangle +|10\rangle )\)Qubits are different (one 0, one 1).Psi Minus\(|\Psi ^{-}\rangle =\frac{1}{\sqrt{2}}(|01\rangle -|10\rangle )\)Qubits are different, with a relative phase shift.
+| NameState | Equation | Description |
+| ----------| ---------| ------------|
+| phi plus | Φ<sup>+</sup> = (|00>+|11>)<sqrt>2</sqrt> | Both qubits are the same (either both 0 or both 1)..
+| Phi Minus |Φ<sup>-</sup> = (|00>-|11>)<sqrt>2</sqrt> | Both qubits are the same, with a relative phase shift.
+| Psi Plus | Ψ<sup>+</sup> = (|01>+|10>)<sqrt>2</sqrt> | Qubits are different (one 0, one 1).
+| Psi Minus | Ψ<sup>-</sup> = (|01>+|10>)<sqrt>2</sqrt> | Qubits are different, with a relative phase shift.
 
 ---
 
