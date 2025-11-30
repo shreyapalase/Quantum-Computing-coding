@@ -87,13 +87,33 @@ Bell states, named after physicist John Stewart Bell, are a set of four specific
 They form an orthonormal basis for a two-qubit system. These states are also often referred to as EPR (Einstein-Podolsky-Rosen) pairs.
 
 The four standard Bell states are represented using the Dirac notation ($\vert \cdot \rangle$) and the tensor product ($\otimes$, often implied):
-
-| NameState | Equation                                              |Description                                                                           |
-| ----------| ------------------------------------------------------| -------------------------------------------------------------------------------------|
-| phi plus | Φ<sup>+</sup> = (|00>+|11>)/<sqrt>2</sqrt> | Both qubits are the same (either both 0 or both 1).|
-| Phi Minus | Φ<sup>-</sup> = (|00>-|11>)/<sqrt>2</sqrt> | Both qubits are the same, with a relative phase shift.|
-| Psi Plus | Ψ<sup>+</sup> = (|01>+|10>)/<sqrt>2</sqrt> | Qubits are different (one 0, one 1).|
-| Psi Minus | Ψ<sup>-</sup> = (|01>+|10>)/<sqrt>2</sqrt> | Qubits are different, with a relative phase shift.|
+<table>
+  <tr>
+    <th> NameState</th>
+    <th> Equation /th>
+    <th> Description</th>
+  </tr>
+  <tr>
+    <td>phi plus</td>
+    <td>Φ<sup>+</sup> = (|00>+|11>)/<sqrt>2</sqrt> |</td>
+    <td>Both qubits are the same (either both 0 or both 1)</td>
+  </tr>
+  <tr>
+    <td>Phi Minus</td>
+    <td>Φ<sup>-</sup> = (|00>-|11>)/<sqrt>2</sqrt>|</td>
+    <td>Both qubits are the same, with a relative phase shift.|</td>
+  </tr>
+  <tr>
+    <td>Psi Plus</td>
+    <td>Ψ<sup>+</sup> = (|01>+|10>)/<sqrt>2</sqrt></td>
+    <td>Qubits are different (one 0, one 1)</td>
+  </tr>
+   <tr>
+    <td>Psi Minus</td>
+    <td>Ψ<sup>-</sup> = (|01>+|10>)/<sqrt>2</sqrt>|</td>
+    <td>Qubits are different, with a relative phase shift</td>
+  </tr>
+</table>
 
 ---
 
