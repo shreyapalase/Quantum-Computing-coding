@@ -90,7 +90,7 @@ The four standard Bell states are represented using the Dirac notation ($\vert \
 <table>
   <tr>
     <th> NameState</th>
-    <th> Equation /th>
+    <th> Equation </th>
     <th> Description</th>
   </tr>
   <tr>
