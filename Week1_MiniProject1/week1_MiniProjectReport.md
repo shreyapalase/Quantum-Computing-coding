@@ -5,7 +5,7 @@
 
 **Aim** : Bulid a Quantum State Circuit & Prove Entanglment by Correlated Measurement Results.
 
-**Author**: Shreya Palase
+**Author**: Miss.Shreya Sunil Palase
 
 **Date** : 30 -Nov- 2025
 
