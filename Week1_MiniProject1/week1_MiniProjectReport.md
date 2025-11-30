@@ -95,12 +95,12 @@ The four standard Bell states are represented using the Dirac notation ($\vert \
   </tr>
   <tr>
     <td>phi plus</td>
-    <td>Φ<sup>+</sup> = (|00>+|11>)/<sqrt>2</sqrt> |</td>
+    <td>Φ<sup>+</sup> = (|00>+|11>)/<sqrt>2</sqrt></td>
     <td>Both qubits are the same (either both 0 or both 1)</td>
   </tr>
   <tr>
     <td>Phi Minus</td>
-    <td>Φ<sup>-</sup> = (|00>-|11>)/<sqrt>2</sqrt>|</td>
+    <td>Φ<sup>-</sup> = (|00>-|11>)/<sqrt>2</sqrt></td>
     <td>Both qubits are the same, with a relative phase shift.|</td>
   </tr>
   <tr>
@@ -110,7 +110,7 @@ The four standard Bell states are represented using the Dirac notation ($\vert \
   </tr>
    <tr>
     <td>Psi Minus</td>
-    <td>Ψ<sup>-</sup> = (|01>+|10>)/<sqrt>2</sqrt>|</td>
+    <td>Ψ<sup>-</sup> = (|01>+|10>)/<sqrt>2</sqrt></td>
     <td>Qubits are different, with a relative phase shift</td>
   </tr>
 </table>
