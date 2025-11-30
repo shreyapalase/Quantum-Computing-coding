@@ -87,6 +87,7 @@ Bell states, named after physicist John Stewart Bell, are a set of four specific
 They form an orthonormal basis for a two-qubit system. These states are also often referred to as EPR (Einstein-Podolsky-Rosen) pairs.
 
 The four standard Bell states are represented using the Dirac notation ($\vert \cdot \rangle$) and the tensor product ($\otimes$, often implied):
+
 | NameState | Equation | Description |
 | Phi Plus\ | (|\Phi ^{+}\rangle =\frac{1}{\sqrt{2}}(|00\rangle +|11\rangle )\) | Both qubits are the same (either both 0 or both 1). |
 | Phi Minus\ | (|\Phi ^{-}\rangle =\frac{1}{\sqrt{2}}(|00\rangle -|11\rangle )\) |Both qubits are the same, with a relative phase shift. |
@@ -97,7 +98,7 @@ The four standard Bell states are represented using the Dirac notation ($\vert \
 
 ## 4. Methodology
 ###Tools used-
-**Programming language** : Pyhthon
+**Programming language** : Python
 **Quantum Framework** : Qiskit
 **Simulator** : AerSimulator()
 **plotting** : Matplotlib
@@ -137,7 +138,7 @@ Thus Qunatum  state successfully demonstarte **Quantum Entanglement**
    - Quantum Teleporation
    - Superdence coding
    - Quantum Key Distribution
-   - Muilti Qubit Algorithm
+   - Multi Qubit Algorithm
 
 ---
 
