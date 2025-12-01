@@ -21,6 +21,7 @@ The standard basis ordering used for these $4 \times 4$ matrices is: $|00\rangle
 
 The CNOT gate acts on a control qubit and a target qubit. It flips the target qubit if the control is $|1\rangle$.
 CNOT gate matrix:
+
 $$
 \begin{bmatrix}
 1 & 0 & 0 & 0 \\
@@ -97,6 +98,7 @@ These gates apply a standard single-qubit rotation gate (RX, RY, or RZ) to the t
 **Date**: 1-Dec-2025
 
 Thank you and Keep Learning!
+
 
 
 
