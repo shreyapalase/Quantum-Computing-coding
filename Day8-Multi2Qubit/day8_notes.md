@@ -36,7 +36,8 @@ $$
 
 ### 2. SWAP / iSWAP Gate
 SWAP Gate The SWAP gate exchanges the states of two qubits:
-  $|a\rangle |b\rangle \rightarrow |b\rangle |a\rangle \ $
+  $|a\rangle |b\rangle \rightarrow |b\rangle |a\rangle \$
+  
  $$
 \begin{bmatrix}
 1 & 0 & 0 & 0 \\
@@ -50,6 +51,7 @@ $$
 
  ### iSWAP Gate
  The iSWAP gate swaps the amplitudes of the  $|01\rangle\and\|10\rangle\$ states and applies a relative phase of $i\$.
+ 
 $$
 \begin{bmatrix}
 1 & 0 & 0 & 0 \\
@@ -64,7 +66,8 @@ $$
  ### 3. CZ Gate (Controlled-Z)
  The CZ gate applies a phase flip to the second qubit if the first qubit is $|1\rangle\$.
  The control and target qubits are interchangeable for this gate.
-  $$
+ 
+$$
 \begin{bmatrix}
 1 & 0 & 0 & 0 \\
 0 & 1 & 0 & 0 \\
@@ -77,6 +80,7 @@ $$
 
   ### 4. Controlled Rotations (CRX, CRY, CRZ)
 These gates apply a standard single-qubit rotation gate (RX, RY, or RZ) to the target qubit, conditioned on the control qubit being in the $|1\rangle\$ state.Let $ R_{k}(\theta )\ $ be the single-qubit rotation matrix around axis $k\$ by angle $\theta \$. The general structure of a controlled gate acting on the second qubit (using Qiskit ordering convention) is a 
+
 $$
 \begin{bmatrix}
 1 & 0 & 0 & 0 \\
@@ -95,7 +99,8 @@ $$
 
   ### 5. Controlled H-Gate (CH Gate)
   The CH gate applies the Hadamard gate (H) to the target qubit only when the control qubit is $|1\rangle\$.The Hadamard  matrix is $H=\frac{1}{\sqrt{2}}\left(\begin{matrix}1&1\\ 1&-1\end{matrix}\right)\$
- $$
+  
+$$
 \begin{bmatrix}
 1 & 0 & 0 & 0 \\
 0 & 1 & 0 & 0 \\
@@ -108,7 +113,8 @@ $$
 
   ### 6. Controlled Phase Gate (CP Gate)
   The CP gate (also known as cu1) introduces a relative phase $e^{i\phi }\$ to the state$ |11\rangle\$.
- $$
+  
+$$
 \begin{bmatrix}
 1 & 0 & 0 & 0 \\
 0 & 1 & 0 & 0 \\
@@ -120,6 +126,7 @@ $$
 
   ### 7. Custom Unitary 2-Qubit Unitary Gate
   This concept represents the ability to apply any valid $4\times 4\$ complex unitary matrix ($U\$) that acts on the 4-dimensional two-qubit Hilbert space.
+  
 $$
 U =
 \begin{bmatrix}
@@ -136,6 +143,7 @@ $$
 **Date**: 1-Dec-2025
 
 Thank you and Keep Learning!
+
 
 
 
