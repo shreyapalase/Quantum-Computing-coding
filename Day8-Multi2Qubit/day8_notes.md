@@ -37,60 +37,98 @@ $$
 ### 2. SWAP / iSWAP Gate
 SWAP Gate The SWAP gate exchanges the states of two qubits:
   $|a\rangle |b\rangle \rightarrow |b\rangle |a\rangle \ $
- | Name | Matrix Representation |
- |------| -----------------------|
- | SWAP | $ U_{\text{SWAP}}=\left(\begin{matrix}1&0&0&0\\ 0&0&1&0\\ 0&1&0&0\\ 0&0&0&1\end{matrix}\right)\ $ |
+ $$
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 1
+\end{bmatrix}
+$$
 
  ---
 
  ### iSWAP Gate
- The iSWAP gate swaps the amplitudes of the  $ |01\rangle \ and \|10\rangle \ $ states and applies a relative phase of $ i\ $.
- | Name | Matrix Representation |
- |------| -----------------------|
- | iSWAP |$ U_{\text{iSWAP}}=\left(\begin{matrix}1&0&0&0\\ 0&0&i&0\\ 0&i&0&0\\ 0&0&0&1\end{matrix}\right)\ $ |
+ The iSWAP gate swaps the amplitudes of the  $|01\rangle\and\|10\rangle\$ states and applies a relative phase of $i\$.
+$$
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 0 & i & 0 \\
+0 & i & 0 & 0 \\
+0 & 0 & 0 & 1
+\end{bmatrix}
+$$
 
  ---
 
  ### 3. CZ Gate (Controlled-Z)
- The CZ gate applies a phase flip to the second qubit if the first qubit is $ |1\rangle \ $.
+ The CZ gate applies a phase flip to the second qubit if the first qubit is $|1\rangle\$.
  The control and target qubits are interchangeable for this gate.
-  | Name | Matrix Representation |
-  |------| -----------------------|
-  |CZ | $ U_{\text{CZ}}=\left(\begin{matrix}1&0&0&0\\ 0&1&0&0\\ 0&0&1&0\\ 0&0&0&-1\end{matrix}\right)\ $ |
+  $$
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & -1
+\end{bmatrix}
+$$
 
   ---
 
   ### 4. Controlled Rotations (CRX, CRY, CRZ)
-These gates apply a standard single-qubit rotation gate (RX, RY, or RZ) to the target qubit, conditioned on the control qubit being in the $ |1\rangle\ $ state.Let $ R_{k}(\theta )\ $ be the single-qubit rotation matrix around axis $ k\ $ by angle $ \theta \ $. The general structure of a controlled gate acting on the second qubit (using Qiskit ordering convention) is a block-diagonal matrix: $ U_{\text{Controlled-R}}=\left(\begin{matrix}I_{2\times 2}&0\\ 0&R_{k}(\theta )\end{matrix}\right)\ $
+These gates apply a standard single-qubit rotation gate (RX, RY, or RZ) to the target qubit, conditioned on the control qubit being in the $|1\rangle\$ state.Let $ R_{k}(\theta )\ $ be the single-qubit rotation matrix around axis $k\$ by angle $\theta \$. The general structure of a controlled gate acting on the second qubit (using Qiskit ordering convention) is a 
+$$
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & e^{i\theta}
+\end{bmatrix}
+$$
+
   Gate Description
-  - CRX(\(\theta \))Controlled X-rotation.
-  - CRY(\(\theta \))Controlled Y-rotation.
-  - CRZ(\(\theta \))Controlled Z-rotation.
+  - CRX $\theta \$Controlled X-rotation.
+  - CRY $(\theta \$Controlled Y-rotation.
+  - CRZ $\theta \$Controlled Z-rotation.
 
   ---
 
   ### 5. Controlled H-Gate (CH Gate)
-  The CH gate applies the Hadamard gate (H) to the target qubit only when the control qubit is $ |1\rangle \ $.The Hadamard matrix is $  H=\frac{1}{\sqrt{2}}\left(\begin{matrix}1&1\\ 1&-1\end{matrix}\right)\ $
-  | Name | Matrix Representation |
-  |------| -----------------------|
- | CH |$ U_{\text{CH}}=\left(\begin{matrix}1&0&0&0\\ 0&1&0&0\\ 0&0&\frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}}\\ 0&0&\frac{1}{\sqrt{2}}&-\frac{1}{\sqrt{2}}\end{matrix}\right)\ $ |
-  
+  The CH gate applies the Hadamard gate (H) to the target qubit only when the control qubit is $|1\rangle\$.The Hadamard  matrix is $H=\frac{1}{\sqrt{2}}\left(\begin{matrix}1&1\\ 1&-1\end{matrix}\right)\$
+ $$
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & \tfrac{1}{\sqrt{2}} & \tfrac{1}{\sqrt{2}} \\
+0 & 0 & \tfrac{1}{\sqrt{2}} & -\tfrac{1}{\sqrt{2}}
+\end{bmatrix}
+$$
+
   ---
 
   ### 6. Controlled Phase Gate (CP Gate)
-  The CP gate (also known as cu1) introduces a relative phase $ e^{i\phi }\ $ to the state $ |11\rangle\ $.
-  | Name | Matrix Representation |
-  |------| -----------------------|
-  | CP | $ {\phi }\\(U_{\text{CP}}=\left(\begin{matrix}1&0&0&0\\ 0&1&0&0\\ 0&0&1&0\\ 0&0&0&e^{i\phi }\end{matrix}\right))\ $ |
+  The CP gate (also known as cu1) introduces a relative phase $e^{i\phi }\$ to the state$ |11\rangle\$.
+ $$
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & e^{i\phi}
+\end{bmatrix}
+$$
 
-  ---
 
   ### 7. Custom Unitary 2-Qubit Unitary Gate
-  This concept represents the ability to apply any valid $ 4\times 4\ $ complex unitary matrix ($ U\ $) that acts on the 4-dimensional two-qubit Hilbert space.
-  | Name | Matrix Representation |
-  |------| -----------------------|
-  | Custom U |$ U_{\text{Custom}}=\left(\begin{matrix}U_{00}&U_{01}&U_{02}&U_{03}\\ U_{10}&U_{11}&U_{12}&U_{13}\\ U_{20}&U_{21}&U_{22}&U_{23}\\ U_{30}&U_{31}&U_{32}&U_{33}\end{matrix}\right)\ $
-  Requirement: The matrix $ U\ $ must satisfy the condition of unitarity: $ U^{\dag }U=I\ $, where $ {\dag }\ $ is the conjugate transpose and $ I\ $ is the identity matrix.
+  This concept represents the ability to apply any valid $4\times 4\$ complex unitary matrix ($U\$) that acts on the 4-dimensional two-qubit Hilbert space.
+$$
+U =
+\begin{bmatrix}
+u_{11} & u_{12} & u_{13} & u_{14} \\
+u_{21} & u_{22} & u_{23} & u_{24} \\
+u_{31} & u_{32} & u_{33} & u_{34} \\
+u_{41} & u_{42} & u_{43} & u_{44}
+\end{bmatrix}
+$$
 
 ---
 **Written By** : Shreya Palase
@@ -98,6 +136,7 @@ These gates apply a standard single-qubit rotation gate (RX, RY, or RZ) to the t
 **Date**: 1-Dec-2025
 
 Thank you and Keep Learning!
+
 
 
 
