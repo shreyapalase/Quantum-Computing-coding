@@ -136,18 +136,12 @@ $$
 
 ---
 
-
-## Multi-Controlled Rotations (MCRX, MCRY, MCRZ)
-
 ## Multi-Controlled Rotations (MCRX, MCRY, MCRZ)
 
 Multi-Controlled Rotation gates extend single-qubit rotation operations (RX, RY, RZ) by adding **multiple control qubits**.  
 The rotation is applied to the target qubit **only when all control qubits are in the state** `|1⟩`.
 
 These gates enable precise, conditional manipulation of quantum amplitudes in multi-qubit systems.
-
----
-
 ### - Key Properties
 - Generalization of controlled rotation gates to **two or more control qubits**.
 - Apply rotations around:
@@ -157,31 +151,21 @@ These gates enable precise, conditional manipulation of quantum amplitudes in mu
 - Act only when *all* control qubits satisfy the condition `|1⟩`.
 - Frequently used in **variational algorithms**, **quantum machine learning**, and **amplitude encoding circuits**.
 - Provide fine-grained control over quantum states through adjustable rotation angles.
-
----
-
 ### - Theoretical Description
 For a rotation gate $R_\alpha(\theta) \$ (where $\alpha \in \{X, Y, Z\} \$):
 
 - If the control qubits are **not all 1**, the target qubit remains unchanged.
 - If the control qubits are **all 1**, the target qubit undergoes the rotation:
-  \[
-  R_X(\theta), \quad R_Y(\theta), \quad R_Z(\theta)
-  \]
+  
+ $R_X(\theta),\; R_Y(\theta),\; R_Z(\theta)$
 
 These rotations modify the qubit’s state by changing amplitude relationships or applying a phase shift, depending on the axis of rotation.
-
----
-
 ### - Behavior Summary
 - **MCRX(θ):** Applies a rotation about the X-axis of the Bloch sphere.
 - **MCRY(θ):** Applies a rotation about the Y-axis.
 - **MCRZ(θ):** Applies a rotation about the Z-axis (phase rotation).
 
 All operations are conditional on multiple controls being active.
-
----
-
 ### - Applications
 - Widely used in **variational quantum circuits (VQAs)** such as VQE and QAOA.
 - Essential in **quantum neural networks** and parameterized circuits.
@@ -195,21 +179,17 @@ All operations are conditional on multiple controls being active.
 The **Multi-Controlled Phase (CP) gate** is a generalized controlled-phase operation that applies a phase shift  
 
 $$
-e^{i\theta}
+\(\quad e^{i\theta})
 $$
 to a target qubit **only when all control qubits are in the state** `|1⟩`.
 
 It extends the standard 2-qubit controlled-phase gate to systems with multiple controls, allowing precise, conditional manipulation of quantum phases.
-
----
-
 ### - Key Properties
 - Applies a phase factor $e^{i\theta}$ to a target qubit or specific multi-qubit state.
 - All computational basis states remain unchanged **except** the one where *all control qubits* are `|1⟩`.
 - A diagonal gate (does not change amplitudes—only phases).
 - Special cases:
-  - When \( \theta = \pi \), it becomes a **multi-controlled Z (MCZ)** gate.
-  - With two controls and \( \theta = \pi \), it becomes the **CCZ gate**.
+  - When  $\theta = \pi\$, it becomes the **CCZ gate**.
 - Fundamentally important for **phase kickback**, **interference**, and **quantum Fourier transform**.
 
 ### - Theoretical Description
@@ -218,9 +198,8 @@ For a system with `n` control qubits and one target qubit:
 - If not all control qubits are `1`, the state is unchanged.
 - If all control qubits are `1`, the state picks up a phase:
 - 
-  $$
-  |11\ldots1\,\psi\rangle \rightarrow e^{i\theta} |11\ldots1\,\psi\rangle
-  $$
+ $(|11\ldots1, \psi\rangle \rightarrow e^{i\theta} |11\ldots1, \psi\rangle)$
+
 
 The gate’s action is purely phase-based and does not affect probability amplitudes.
 
@@ -242,16 +221,16 @@ The final diagonal element corresponds to the basis state where all control qubi
 ----
 
 ## Custom 3-Qubit Unitary Gate
-
 A **custom 3-qubit unitary gate** represents the most general quantum operation that can be applied to a system of three qubits.  
 It is defined by an **8×8 unitary matrix**, where every transformation is reversible and preserves quantum coherence.
 
 ### - Key Properties
 - Acts on three qubits simultaneously using a single **8×8 complex unitary matrix**.
 - Must satisfy the unitarity condition:
-  $$
-  U^\dagger U = I
-  $$
+
+$$
+\(U^\dagger U = I\)
+$$
   ensuring reversibility and valid quantum evolution.
 - Represents the most expressive form of a three-qubit gate—capable of performing any physically allowed transformation.
 - Can encode any multi-qubit logic, entangling operation, or custom-designed quantum behavior.
@@ -275,7 +254,7 @@ These properties make it possible to create arbitrarily complex quantum operatio
 The gate is fully described by:
 
 $$
-U \in \mathbb{C}^{8 \times 8}, \quad U^\dagger U = I
+\(U \in \mathbb{C}^{8 \times 8}, \quad U^\dagger U = I)
 $$
 
 The matrix may include rotation, phase, mixing, and entangling components all at once
