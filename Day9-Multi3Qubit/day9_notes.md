@@ -66,23 +66,23 @@ $$
 The **CSWAP gate**, also known as the **Fredkin gate**, is a three-qubit reversible quantum gate.  
 It consists of **one control qubit** and **two target qubits**.
 
-### Key Properties
+### - Key Properties
 - Swaps the states of the two target qubits **only when the control qubit is in the state** `|1⟩`.
 - If the control qubit is `|0⟩`, the target qubits remain unchanged.
 - It is an important gate for **reversible computation** and **quantum comparison and sorting tasks**.
 - Preserves superposition and entanglement between the swapped qubits.
 
-### Theoretical Description
+### - Theoretical Description
 The action of the CSWAP gate:
 - If the control qubit is `0`:
   - `|0ab⟩ → |0ab⟩` (no swap)
 - If the control qubit is `1`:
   - `|1ab⟩ → |1ba⟩` (swap targets)
 
-### Matrix Form
+### - Matrix Form
 The CSWAP gate is represented by the following 8×8 unitary matrix:
 
-\[
+$$
 \begin{bmatrix}
 1&0&0&0&0&0&0&0\\
 0&1&0&0&0&0&0&0\\
@@ -93,9 +93,9 @@ The CSWAP gate is represented by the following 8×8 unitary matrix:
 0&0&0&0&0&1&0&0\\
 0&0&0&0&0&0&0&1
 \end{bmatrix}
-\]
+$$
 
-### Applications
+### - Applications
 - Quantum **comparison**, **routing**, and **sorting networks**.
 - Useful in **quantum machine learning** models involving data comparison.
 - Serves as a fundamental component in **reversible logic circuits**.
@@ -109,33 +109,35 @@ The CSWAP gate is represented by the following 8×8 unitary matrix:
 The **CCZ gate** is a three-qubit controlled phase gate with **two control qubits** and **one target qubit**.  
 It applies a Z-phase (a phase flip of `-1`) **only when all three qubits are in the state** `|111⟩`.
 
-### Key Properties
+### - Key Properties
 - Applies a phase shift of `-1` to the basis state `|111⟩`.
 - Leaves all other computational basis states unchanged.
 - It is a **diagonal gate**, meaning it does not alter amplitude magnitudes—only relative phases.
 - Can be converted into a **Toffoli (CCX) gate** by surrounding the target with Hadamard gates.
 - Widely used in constructing multi-controlled quantum gates and phase-sensitive algorithms.
 
-### Theoretical Description
+### - Theoretical Description
 The CCZ operation can be described as:
 - For any state `|abc⟩`:
   - If `a = b = c = 1`, apply a phase flip: `|111⟩ → -|111⟩`
   - Otherwise: `|abc⟩` remains unchanged
 
-### Matrix Form
+### - Matrix Form
 The CCZ gate is represented by the following diagonal 8×8 unitary matrix:
 
-\[
+$$
 CCZ = \text{diag}(1, 1, 1, 1, 1, 1, 1, -1)
-\]
+$$
 
-### Applications
+### - Applications
 - Used in **phase kickback** and **interference-based algorithms**.
 - Key component in **quantum Boolean logic** and multi-controlled circuit constructions.
 - Appears frequently in algorithm
 
 ---
 
+
+## Multi-Controlled Rotations (MCRX, MCRY, MCRZ)
 
 ## Multi-Controlled Rotations (MCRX, MCRY, MCRZ)
 
@@ -146,7 +148,7 @@ These gates enable precise, conditional manipulation of quantum amplitudes in mu
 
 ---
 
-### Key Properties
+### - Key Properties
 - Generalization of controlled rotation gates to **two or more control qubits**.
 - Apply rotations around:
   - **X-axis:** MCRX(θ)  
@@ -158,25 +160,51 @@ These gates enable precise, conditional manipulation of quantum amplitudes in mu
 
 ---
 
-### Theoretical Description
-For a rotation gate \( R_\alpha(\theta) \) (where_
+### - Theoretical Description
+For a rotation gate $R_\alpha(\theta) \$ (where $\alpha \in \{X, Y, Z\} \$):
 
-5. Multi-Controlled Phase Gate (CP Gate)
+- If the control qubits are **not all 1**, the target qubit remains unchanged.
+- If the control qubits are **all 1**, the target qubit undergoes the rotation:
+  \[
+  R_X(\theta), \quad R_Y(\theta), \quad R_Z(\theta)
+  \]
+
+These rotations modify the qubit’s state by changing amplitude relationships or applying a phase shift, depending on the axis of rotation.
+
+---
+
+### - Behavior Summary
+- **MCRX(θ):** Applies a rotation about the X-axis of the Bloch sphere.
+- **MCRY(θ):** Applies a rotation about the Y-axis.
+- **MCRZ(θ):** Applies a rotation about the Z-axis (phase rotation).
+
+All operations are conditional on multiple controls being active.
+
+---
+
+### - Applications
+- Widely used in **variational quantum circuits (VQAs)** such as VQE and QAOA.
+- Essential in **quantum neural networks** and parameterized circuits.
+- Useful for **amplitude amplification** and **state preparation**, where controlled continuous rotations are required.
+- Provide enhanced expressive power for multi-qubit systems while retaining reversibility.
+
+---
 
 ## Multi-Controlled Phase Gate (CP Gate)
 
 The **Multi-Controlled Phase (CP) gate** is a generalized controlled-phase operation that applies a phase shift  
-\[
+
+$$
 e^{i\theta}
-\]
+$$
 to a target qubit **only when all control qubits are in the state** `|1⟩`.
 
 It extends the standard 2-qubit controlled-phase gate to systems with multiple controls, allowing precise, conditional manipulation of quantum phases.
 
 ---
 
-### Key Properties
-- Applies a phase factor \( e^{i\theta} \) to a target qubit or specific multi-qubit state.
+### - Key Properties
+- Applies a phase factor $e^{i\theta}$ to a target qubit or specific multi-qubit state.
 - All computational basis states remain unchanged **except** the one where *all control qubits* are `|1⟩`.
 - A diagonal gate (does not change amplitudes—only phases).
 - Special cases:
@@ -184,39 +212,32 @@ It extends the standard 2-qubit controlled-phase gate to systems with multiple c
   - With two controls and \( \theta = \pi \), it becomes the **CCZ gate**.
 - Fundamentally important for **phase kickback**, **interference**, and **quantum Fourier transform**.
 
----
-
-### Theoretical Description
+### - Theoretical Description
 For a system with `n` control qubits and one target qubit:
 
 - If not all control qubits are `1`, the state is unchanged.
 - If all control qubits are `1`, the state picks up a phase:
-  \[
+- 
+  $$
   |11\ldots1\,\psi\rangle \rightarrow e^{i\theta} |11\ldots1\,\psi\rangle
-  \]
+  $$
 
 The gate’s action is purely phase-based and does not affect probability amplitudes.
 
----
-
-### Matrix Form (Generalized)
+### - Matrix Form (Generalized)
 The multi-controlled phase gate has a diagonal matrix representation:
 
-\[
+$$
 \text{diag}(1, 1, \ldots, 1, e^{i\theta})
-\]
+$$
 
 The final diagonal element corresponds to the basis state where all control qubits are `1`.
 
----
-
-### Applications
+### - Applications
 - Central to **quantum phase estimation** and **quantum Fourier transform (QFT)**.
 - Used in **oracles for Grover’s algorithm**.
 - Important for **state preparation**, **amplitude amplification**, and **multi-qubit interference patterns**.
 - Enables flexible control of phase relationships in deeply entangled quantum systems.
-
-
 
 ----
 
@@ -225,26 +246,24 @@ The final diagonal element corresponds to the basis state where all control qubi
 A **custom 3-qubit unitary gate** represents the most general quantum operation that can be applied to a system of three qubits.  
 It is defined by an **8×8 unitary matrix**, where every transformation is reversible and preserves quantum coherence.
 
----
-
-### Key Properties
+### - Key Properties
 - Acts on three qubits simultaneously using a single **8×8 complex unitary matrix**.
 - Must satisfy the unitarity condition:
-  \[
+  $$
   U^\dagger U = I
-  \]
+  $$
   ensuring reversibility and valid quantum evolution.
 - Represents the most expressive form of a three-qubit gate—capable of performing any physically allowed transformation.
 - Can encode any multi-qubit logic, entangling operation, or custom-designed quantum behavior.
 
 ---
 
-### Theoretical Description
-A custom unitary operation on three qubits transforms a basis state \( |x\rangle \) (where \( x \in \{0,1\}^3 \)) into a superposition:
+### - Theoretical Description
+A custom unitary operation on three qubits transforms a basis state  $|x\rangle\$ (where $x\in\{0,1\}^3 \$) into a superposition:
 
-\[
+$$
 |x\rangle \rightarrow U |x\rangle
-\]
+$$
 
 Because the matrix is unitary, it:
 - Preserves inner products  
@@ -252,21 +271,16 @@ Because the matrix is unitary, it:
 - Ensures reversibility  
 
 These properties make it possible to create arbitrarily complex quantum operations.
-
----
-
-### Matrix Form
+### - Matrix Form
 The gate is fully described by:
 
-\[
+$$
 U \in \mathbb{C}^{8 \times 8}, \quad U^\dagger U = I
-\]
+$$
 
-The matrix may include rotation, phase, mixing, and entangling components all at once.
+The matrix may include rotation, phase, mixing, and entangling components all at once
 
----
-
-### Applications
+### - Applications
 - Designing custom logic in quantum algorithms.
 - Creating specialized **entangling operations** not available in standard gate libraries.
 - Implementing **problem-specific oracles**, **state preparation routines**, and **Hamiltonian simulations**.
@@ -274,11 +288,13 @@ The matrix may include rotation, phase, mixing, and entangling components all at
 - Useful in variational circuits where **trainable unitary blocks** are required.
 
 ---
+
 ## Custom 3-Qubit Unitary Gate (Summary)
 
 A custom 3-qubit unitary gate is an arbitrary **8×8 unitary matrix** acting on three qubits.  
 It performs any reversible quantum operation while preserving normalization and coherence.  
 Used for implementing specialized transformations, custom logic, entangling operations, and problem-specific quantum algorithms.
+
 ---
 
 **Written By** : Shreya Palase
