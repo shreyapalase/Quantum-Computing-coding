@@ -20,24 +20,24 @@ The standard basis ordering used for these $4\times 4$ matrices is: $|00\rangle,
 The **CCX gate**, also known as the **Toffoli gate**, is a three-qubit reversible quantum gate.  
 It contains **two control qubits** and **one target qubit**.
 
-### Key Properties
+### - Key Properties
 - Performs a NOT operation on the target qubit **only when both control qubits are in the state** `|1⟩`.
 - Represents a fundamental building block of **reversible classical logic**.
 - Can be used to construct complex circuits such as **adders, comparators, and arithmetic units**.
 - Fully preserves superposition and entanglement, enabling conditional quantum operations.
 - Equivalent to applying a **CNOT** on the target, conditioned on two controls simultaneously.
 
-### Theoretical Description
+### - Theoretical Description
 The gate action can be summarized as:
 - If the control qubits are **not both 1**, the target qubit is unchanged.
 - If the control qubits are **both 1**, the target qubit is flipped:
   - `|110⟩ → |111⟩`
   - `|111⟩ → |110⟩`
 
-### Matrix Form
+### - Matrix Form
 The CCX gate is represented by the following 8×8 unitary matrix (in computational basis):
 
-\[
+$$
 \begin{bmatrix}
 1&0&0&0&0&0&0&0\\
 0&1&0&0&0&0&0&0\\
@@ -48,9 +48,9 @@ The CCX gate is represented by the following 8×8 unitary matrix (in computation
 0&0&0&0&0&0&0&1\\
 0&0&0&0&0&0&1&0
 \end{bmatrix}
-\]
+$$
 
-### Applications
+### - Applications
 - Building universal classical logic circuits on quantum computers.
 - Creating multi-controlled quantum operations.
 - Used in algorithms requiring conditional logic, such as:
@@ -60,11 +60,6 @@ The CCX gate is represented by the following 8×8 unitary matrix (in computation
 
 
 ​----
-
-
-
-## CSWAP Gate (Controlled-SWAP / Fredkin Gate)
-
 
 ## CSWAP Gate (Controlled-SWAP / Fredkin Gate)
 
