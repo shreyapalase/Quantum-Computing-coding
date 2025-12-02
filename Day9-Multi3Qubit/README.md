@@ -1,6 +1,6 @@
 # Multi-Qubit System in Quantum Computing Part -1( 2-Qubit Gates)
 
-Previously We studied single qubit  gates. now this folder demonstrate implementation of 3-Qubit system.
+Previously We studied 2-qubit  gates. now this folder demonstrate implementation of 3-Qubit system.
 
 ---
 
