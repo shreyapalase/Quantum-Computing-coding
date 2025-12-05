@@ -143,7 +143,7 @@ You are welcome to reach out for:
 
 ---
 
-## 🙏 Thank You!
+## ✨ Thank You!
 Your interest, contributions, and support help make quantum learning accessible to everyone.
 Together, we can learn, code, and explore the world of quantum computing—one qubit at a time!
 
