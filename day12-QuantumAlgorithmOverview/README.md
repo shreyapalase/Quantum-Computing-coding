@@ -44,7 +44,7 @@ The theory notes assume basic understanding of:
 ##  How to Use This Repository
 
 1. **Download or clone** the repository  
-2. Open `quantum_algorithm_theory_notes.md` in any Markdown viewer  
+2. Open `day12_QAlgoIntro.md` in any Markdown viewer  
 3. Use it for:
    - Study notes  
    - Teaching material  
