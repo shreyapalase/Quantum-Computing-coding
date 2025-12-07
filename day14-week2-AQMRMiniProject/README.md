@@ -1,7 +1,7 @@
 # Mini Project - Adaptive Quantum Message Router(AQMR)
 
 a unique hybrid protocol combining teleporation,Superdense coding and Deaustch-Jozsa style oracle detection to route quantum message efficiently.
-This creates somethong like **tiny Quantum Router** that decide how to send a message based on a quantum property rather than a classical condition.
+This creates something like **tiny Quantum Router** that decide how to send a message based on a quantum property rather than a classical condition.
 **In this project we will implemented** :
 
 1. Multi-Qubit Entangled State
