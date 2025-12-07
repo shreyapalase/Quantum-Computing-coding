@@ -25,7 +25,7 @@ By the end of module ,you will be able to:
 
 ## contents:
 1. **week2_AQMRminiProject.ipynb**
-   Intractive and hands-on practice jupyter notebook bulid bell state project step by step.
+   Intractive and hands-on practice jupyter notebook bulid AQMR project step by step.
 2. **day14_AQMRMiniProjectReport.md**
    Report on mini-project.
 
