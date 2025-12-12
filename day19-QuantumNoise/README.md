@@ -4,7 +4,7 @@ In this ,we will learn:
 - What is Quantum noise?
 - Type of Quantum Noise?
 - How to simulate noise using Qiskit AerSimulator.
-- Compare ** ideal simulation vs noisy simulation**
+- Compare **ideal simulation vs noisy simulation**
 - Result and future Scope.
 ---
 
