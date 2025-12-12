@@ -1,5 +1,5 @@
 # Quantum Phase Estimation
-This foldercontain material for the Implementation and working of Quantum Phase Estimation.
+This folder contain material for the Implementation and working of Quantum Phase Estimation.
 In this,we will learn:
 - What  **Quantum Phase estimation**  is?
 - Why phase estimation is fundamantal subroutine for many quantum algorithms.
