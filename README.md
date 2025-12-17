@@ -1,5 +1,14 @@
 ![CodeQubit Banner](assets/banner2.png)
+
+---
+
+# Badges
 ![Qiskit](https://img.shields.io/badge/Qiskit-Quantum-blueviolet)
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-Orange)
+
+---
+
 # ⚛️ Quantum Computing Coding 
 ### Learn, Practice, and Implement Quantum Algorithms with Real Code
 
