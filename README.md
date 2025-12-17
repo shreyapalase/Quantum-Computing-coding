@@ -1,3 +1,4 @@
+![CodeQubit Banner](assets/banner2.png)
 # ⚛️ Quantum Computing Coding 
 ### Learn, Practice, and Implement Quantum Algorithms with Real Code
 
