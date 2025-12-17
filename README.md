@@ -1,4 +1,5 @@
 ![CodeQubit Banner](assets/banner2.png)
+![Qiskit](https://img.shields.io/badge/Qiskit-Quantum-blueviolet)
 # ⚛️ Quantum Computing Coding 
 ### Learn, Practice, and Implement Quantum Algorithms with Real Code
 
