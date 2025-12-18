@@ -18,8 +18,16 @@ this hands-on jupiter practice notebook which represent demonstration of working
    for more deep understanding.
 ---
 
-**Author** -Shreya Palase
+<img src="/assets/banner2.png" width="250" height=50/> 
+
+ **Author** -Shreya Palase
 
 **Date** - 10-Dec-2025
 
 Thank you!
+
+![codeQubit](https://img.shields.io/badge/codeQubit-Quantum%20Computing-blue)
+
+
+
+
