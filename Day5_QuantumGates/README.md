@@ -23,8 +23,15 @@ This is hand on jupyter notebook which contains practical implementation of Basi
 
 ---
 
+<img src="/assets/banner2.png" width="250" height=50/> 
+
 **Author** : Shreya Palase
 
 **Date** :27-Nov-2025
 
-Thank You!
+ Thank you!
+
+![codeQubit](https://img.shields.io/badge/codeQubit-Quantum%20Computing-blue)
+
+
+
