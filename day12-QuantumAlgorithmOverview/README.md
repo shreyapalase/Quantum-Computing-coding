@@ -7,7 +7,7 @@ The notes are written in clean Markdown and compatible with GitHub's renderer.
 
 ## Included Document
 
-### day12_QAlgoIntro.md`**
+### day12_QAlgoIntro.md**
 
 This document provides:
 
@@ -73,28 +73,19 @@ One of the most important quantum algorithms; used in factoring and quantum simu
 
 ---
 
-## 🎯 Purpose of This Repository
-
-This repository helps students and researchers quickly learn the **foundations of quantum algorithms** without searching through scattered sources.  
-It is written to be:
-
-- Clear  
-- Well-structured  
-- Easy to navigate  
-- GitHub-friendly  
-
----
-
-## ⭐ Support
-
-If you find this helpful, consider giving the repository a **star** ⭐ to support the project!
-
----
-
-
+<img src="/assets/banner2.png" width="250" height=50/> 
 
 **Author** -Shreya Palase
 
 **Date** - 5-Dec-2025
 
 Thank you!
+
+![codeQubit](https://img.shields.io/badge/codeQubit-Quantum%20Computing-blue)
+
+
+
+
+
+
+
