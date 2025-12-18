@@ -1,4 +1,4 @@
-# Multi-Qubit System in Quantum Computing Part -1( 2-Qubit Gates)
+# Multi-Qubit System in Quantum Computing Part -2( 3-Qubit Gates)
 
 Previously We studied 2-qubit  gates. now this folder demonstrate implementation of 3-Qubit system.
 
@@ -23,8 +23,13 @@ this hands-on jupiter practice notebook which represent demonstration of 3 Qubit
    this file include detailed theory note about the 3-Qubit gates  and its purpose.
 ---
 
+<img src="/assets/banner2.png" width="250" height=50/> 
+
 **Author** -Shreya Palase
 
 **Date** - 2-Dec-2025
 
 Thank you!
+
+![codeQubit](https://img.shields.io/badge/codeQubit-Quantum%20Computing-blue)
+
