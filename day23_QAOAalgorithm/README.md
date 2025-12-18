@@ -1,3 +1,4 @@
+![codeQubit](https://img.shields.io/badge/codeQubit-Quantum%20Computing-blue)
 # QAOA Implementation for Maxcut Problem
 In this folder contain material for ,the **Quantum Approximate Optimization Algorithm(QAOA)** to solve the **Maxcut problem** on a simple graph using **Qiskit**.
 
