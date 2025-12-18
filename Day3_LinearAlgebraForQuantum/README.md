@@ -27,7 +27,15 @@ This Folder contains material to practice and understand linear algebra for quan
 
 **Run the notebook using Jupyter or VS code.**
 
+---
+<img src="/assets/banner2.png" width="250" height=50/> 
+
 **Author** -Shreya Palase
 
 **Date** - 26-Nov-2025
+
+Thank you!
+
+![codeQubit](https://img.shields.io/badge/codeQubit-Quantum%20Computing-blue)
+
 
