@@ -23,11 +23,16 @@ refresh with python basic ,understand ,perform and apply key concept require for
 ### Dependencies
 Install NumPy
 
+---
+
+<img src="/assets/banner2.png" width="250" height=50/> 
+
 **Author** - Shreya Palase
 
 **Date** -25-Nov-2025
 
 Thank you and follow guide.
 
+![codeQubit](https://img.shields.io/badge/codeQubit-Quantum%20Computing-blue)
 
 
