@@ -24,8 +24,12 @@ This notebook demonstrates a simple quantum program using Qiskit:
 
 ---
 
- **Author** :Shreya Palase
+<img src="/assets/banner2.png" width="250" height=50/> 
+
+**Author** :Shreya Palase
  
  **Date** : 24-Nov-2025
 
  Thank you and Keep learning!
+
+ ![codeQubit](https://img.shields.io/badge/codeQubit-Quantum%20Computing-blue)
