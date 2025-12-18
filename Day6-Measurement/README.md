@@ -8,9 +8,9 @@ This Folder contain material for practice and understanding Basic Quantum Measur
 - Qubit can be in superposition 
 - Measurement collapse it to 0 or 1
 - Probabilities come from amplitude
-- More Measurement $ {\rightarrow} $ better probability distribution
+- More Measurement $\rightarrow$ better probability distribution
 - you learned measurement in **Z-Basis** and **X-Basis**
-- 
+
 ---
 
 ## Contents:
@@ -24,8 +24,17 @@ This is hand on jupyter notebook which contains practical implementation Measure
 
 ---
 
+<img src="/assets/banner2.png" width="250" height=50/> 
+
 **Author** : Shreya Palase
 
 **Date** :29-Nov-2025
 
 Thank You!
+
+![codeQubit](https://img.shields.io/badge/codeQubit-Quantum%20Computing-blue)
+
+
+
+
+
