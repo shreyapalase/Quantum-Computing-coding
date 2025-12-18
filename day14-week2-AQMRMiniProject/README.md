@@ -31,6 +31,17 @@ By the end of module ,you will be able to:
 
 ---
 
+<img src="/assets/banner2.png" width="250" height=50/> 
+
  **Author** : Shreya Palase
  
  **Date** : 7-Dec-2025
+
+ Thank you!
+
+![codeQubit](https://img.shields.io/badge/codeQubit-Quantum%20Computing-blue)
+
+
+
+
+
