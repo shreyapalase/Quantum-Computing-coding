@@ -70,6 +70,10 @@ This project is intended solely for **academic, research, and educational purpos
 
 ---
 
+⭐ *If you find this project useful, consider starring the repository!*  
+
+---
+
 <img src="/assets/banner2.png" width="250" height=50/> 
 
 **Author** -Shreya Palase
