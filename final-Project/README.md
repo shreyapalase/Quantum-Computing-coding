@@ -1,6 +1,5 @@
 # 🚀 QAOA-Based Energy-Efficient Satellite Task Scheduling Under Orbital Visibility Constraint
 
----
 
 ## 🌟 Project Purpose
 
@@ -69,5 +68,16 @@ This project—including all codes, research ideas, formulations, and documentat
 Any unauthorized access, usage, or reproduction will be considered a violation of intellectual property rights.  
 This project is intended solely for **academic, research, and educational purposes**.
 
-- Shreya Palase(codeQubit)
- 
+---
+
+<img src="/assets/banner2.png" width="250" height=50/> 
+
+**Author** -Shreya Palase
+
+**Date** - 30-Dec-2025
+
+Thank you!
+
+![codeQubit](https://img.shields.io/badge/codeQubit-Quantum%20Computing-blue)
+
+
