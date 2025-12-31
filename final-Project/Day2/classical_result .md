@@ -256,6 +256,16 @@ This classical solution:
 
 ---
 
+## Author & Document Information
+
+**Author:** Shreya Sunil Palase(codeQubit)
+
+**Affiliation:** Independent-Researcher
+
+**Project:** QAOA-Based Energy-Efficient Satellite Task Scheduling
+
+**Date:** 31 December 2025  
+
 
 ---
 
