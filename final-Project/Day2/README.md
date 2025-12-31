@@ -1,5 +1,5 @@
 ### Day 2  
-## QAOA-Based Energy-Efficient Satellite Task Scheduling Under Orbital Visibility Constraints
+# QAOA-Based Energy-Efficient Satellite Task Scheduling Under Orbital Visibility Constraints
 
 ---
 
@@ -73,18 +73,58 @@ These papers provide **open-access references** and theoretical foundations rela
 
 ---
 
-## Security & Academic Integrity
+## 🚨 Security & Usage Declaration
 
-⚠️ **Important Notice**
+⚠️ **IMPORTANT:**  
+This project content — including conceptual designs, optimization formulations, and research discussions — is intended primarily
 
-- This repository is intended for **research and educational use only**
-- **Do NOT copy or reuse code or content directly** for:
-  - Academic assignments or exams
-  - Publications without proper citation
-- Any reuse of ideas, algorithms, or models must include appropriate attribution
-- Unauthorized redistribution or plagiarism is strictly prohibited
+## 👤 Author Information
 
-This project adheres to **academic integrity and responsible research practices**.
+**Author:** *Shreya Sunil Palase(codeQubit)*  
+
+**Role:** Independent Researcher 
+
+**Project Focus:** Quantum Computing & Optimization 
+
+**Date Created:** 31 December 2025  
 
 ---
+
+## ⚠️ Research & Usage Declaration
+
+This repository contains **original research documentation, problem formulations, and explanations** created solely for academic and educational purposes.
+
+### Usage Policy
+- ❌ Unauthorized copying or redistribution of this material is prohibited  
+- ❌ Commercial use without explicit permission is not allowed  
+- ✅ Referencing with proper citation is permitted for academic use  
+
+If you wish to use or extend this work, please contact the author.
+
+---
+
+## 📬 Contact
+
+For research collaboration, questions, or discussions related to:
+- Quantum optimization
+- Satellite scheduling
+- QAOA modeling
+
+Please reach out via GitHub Issues or repository contact details.
+
+---
+
+⭐ *If you find this project useful, consider starring the repository!*  
+
+---
+
+<img src="/assets/banner2.png" width="250" height=50/> 
+
+**Author** -Shreya Palase
+
+**Date** - 31-Dec-2025
+
+Thank you!
+
+![codeQubit](https://img.shields.io/badge/codeQubit-Quantum%20Computing-blue)
 
