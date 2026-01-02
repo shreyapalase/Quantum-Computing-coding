@@ -1,4 +1,5 @@
-# Day 3 – QAOA-Based Satellite Task Scheduling
+### Day 3 
+# QAOA-Based  Energy Efficient Satellite Task Scheduling Under Orbital Visibility Constraints
 
 ## Overview
 This repository documents **Day 3 progress** of the project on **Energy-Efficient Satellite Task Scheduling using QAOA under Orbital Visibility Constraints**.  
@@ -45,20 +46,59 @@ The following research papers provide foundational and implementation-level insi
 
 ---
 
-## Security & Academic Integrity Notice
+## 🚨 Security & Usage Declaration
 
-⚠️ **Usage Policy**
-- This project is intended for **educational and research purposes only**
-- Direct copying or rebranding of this work for academic submission or commercial use is **strictly discouraged**
-- Proper citation and acknowledgment are required if concepts or structures are reused
+⚠️ **IMPORTANT:**  
+This project content — including conceptual designs, optimization formulations, and research discussions — is intended primarily
 
-🔐 **Original Work Statement**
-All problem formulations, interpretations, and explanations reflect **independent analytical work** and are structured specifically for learning, interviews, and research discussion.
+## 👤 Author Information
+
+**Author:** *Shreya Sunil Palase(codeQubit)*  
+
+**Role:** Independent Researcher 
+
+**Project Focus:** Quantum Computing & Optimization 
+
+**Date Created:** 01 Janaury 2026
 
 ---
 
-## Status
-✔ Day 3 – Problem Modeling & Interpretation Complete  
-⏳ Next: Result visualization and comparative analysis
+## ⚠️ Research & Usage Declaration
+
+This repository contains **original research documentation, problem formulations, and explanations** created solely for academic and educational purposes.
+
+### Usage Policy
+- ❌ Unauthorized copying or redistribution of this material is prohibited  
+- ❌ Commercial use without explicit permission is not allowed  
+- ✅ Referencing with proper citation is permitted for academic use  
+
+If you wish to use or extend this work, please contact the author.
 
 ---
+
+## 📬 Contact
+
+For research collaboration, questions, or discussions related to:
+- Quantum optimization
+- Satellite scheduling
+- QAOA modeling
+
+Please reach out via GitHub Issues or repository contact details.
+
+---
+
+⭐ *If you find this project useful, consider starring the repository!*  
+
+---
+
+<img src="/assets/banner2.png" width="250" height=50/> 
+
+**Author** -Shreya Palase
+
+**Date** - 1-Jan-2026
+
+Thank you!
+
+![codeQubit](https://img.shields.io/badge/codeQubit-Quantum%20Computing-blue)
+
+
