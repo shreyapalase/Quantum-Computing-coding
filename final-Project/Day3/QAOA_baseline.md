@@ -339,3 +339,17 @@ This project demonstrates a **step-by-step conceptual application of QAOA** to s
 The final dominance of Task T4 confirms that **constraint-aware optimization** is essential for real-world satellite operations.
 
 ---
+
+## Author & Document Information
+
+**Author:** Shreya Sunil Palase(codeQubit)
+
+**Affiliation:** Independent-Researcher
+
+**Project:** QAOA-Based Energy-Efficient Satellite Task Scheduling
+
+**Date:** 1 Janaury 2026  
+
+
+---
+
