@@ -21,3 +21,59 @@ The project focuses on:
 
 These materials are intended to help understand how quantum algorithms can improve scheduling in energy-constrained space systems.
 
+## 🚨 Security & Usage Declaration
+
+⚠️ **IMPORTANT:**  
+This project content — including conceptual designs, optimization formulations, and research discussions — is intended primarily
+
+## 👤 Author Information
+
+**Author:** *Shreya Sunil Palase(codeQubit)*  
+
+**Role:** Independent Researcher 
+
+**Project Focus:** Quantum Computing & Optimization 
+
+**Date Created:** 02 Janaury 2026
+
+---
+
+## ⚠️ Research & Usage Declaration
+
+This repository contains **original research documentation, problem formulations, and explanations** created solely for academic and educational purposes.
+
+### Usage Policy
+- ❌ Unauthorized copying or redistribution of this material is prohibited  
+- ❌ Commercial use without explicit permission is not allowed  
+- ✅ Referencing with proper citation is permitted for academic use  
+
+If you wish to use or extend this work, please contact the author.
+
+---
+
+## 📬 Contact
+
+For research collaboration, questions, or discussions related to:
+- Quantum optimization
+- Satellite scheduling
+- QAOA modeling
+
+Please reach out via GitHub Issues or repository contact details.
+
+---
+
+⭐ *If you find this project useful, consider starring the repository!*  
+
+---
+
+<img src="/assets/banner2.png" width="250" height=50/> 
+
+**Author** -Shreya Palase
+
+**Date** - 2-Jan-2026
+
+Thank you!
+
+![codeQubit](https://img.shields.io/badge/codeQubit-Quantum%20Computing-blue)
+
+
