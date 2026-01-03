@@ -52,8 +52,7 @@ The visibility windows are determined by orbital geometry, while energy costs re
 
 ---
 
-## 3. Scheduling Approaches Considered
-## 3. Real-World Relevance to LEO Earth Observation Missions
+## 3. Scheduling Approaches Considered : Real-World Relevance to LEO Earth Observation Missions
 
 ### 3.1 Overview of LEO Earth Observation Satellites
 
