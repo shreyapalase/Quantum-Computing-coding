@@ -1,10 +1,10 @@
-Trigger CI workflow
+
 ![CodeQubit Banner](assets/banner2.png)
 
 ---
 
 # Badges
-![Qiskit](https://img.shields.io/badge/Qiskit-Quantum-blueviolet)
+![Qiskit](https://img.shields.io/badge/qiskit-2.2.3-blueviolet)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-Orange)
 
