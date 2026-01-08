@@ -22,7 +22,12 @@ jobs:
         with:
            python-version: 3.11.14
       - name: Install Qiskit and notebook tools
+        run: |
+          python -m ipykernel install --user --name python3 --displya-name "Python 3"
+
+      - name: Install Jupyter kernel
         run: pip install qiskit==2.2.3 nbconvert nbformat
+
 
       - name: Run Jupyter notebooks
         run: |
