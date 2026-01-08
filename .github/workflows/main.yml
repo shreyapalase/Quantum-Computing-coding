@@ -30,8 +30,8 @@ jobs:
           NOTEBOOKS=$(find. -name "*.ipynb")
           for nb in $NOTEBOOK ; do
             echo "Running $nb ..."
-            jupyter nbconvert --to notebook --execute\
-              --ExecutePreProcessor.timeout=600\
+            jupyter nbconvert --to notebook --execute \
+              --ExecutePreProcessor.timeout=600 \
               --allow-errors "$nb"
           done
           
