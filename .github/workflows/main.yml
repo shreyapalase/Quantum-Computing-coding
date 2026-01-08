@@ -27,8 +27,8 @@ jobs:
       - name: Run Jupyter notebooks
         run: |
          
-          NOTEBOOKS=$(find. -name "*.ipynb")
-          for nb in $NOTEBOOK ; do
+          NOTEBOOKS=$(find . -name "*.ipynb")
+          for nb in $NOTEBOOKS ; do
             echo "Running $nb ..."
             jupyter nbconvert --to notebook --execute \
               --ExecutePreProcessor.timeout=600 \
