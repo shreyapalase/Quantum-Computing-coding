@@ -24,10 +24,11 @@ jobs:
            
       - name: Install Qiskit and notebook tools
         run: 
-          pip install qiskit==2.2.3 nbconvert nbformat matplotlib pandas ipykernel
+          python -m pip install --upgrade pip
+          pip install nbconvert nbformat matplotlib pandas ipykernel
+          pip install qiskit==2.2.3
        
       - name: Install Jupyter kernel
-        
         run: |
           python -m ipykernel install --user --name python3 --display-name "Python 3"
 
